@@ -1,0 +1,218 @@
+{
+  "nav": {
+    "home": "Home",
+    "association": "Association",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "header": {
+    "tagline": "Savoir • Langue • Art • Voyage • Échange"
+  },
+  "home": {
+    "hero": {
+      "badge": "Since 2007 • Bordeaux, France",
+      "title1": "Where Cultures",
+      "title2": "Connect",
+      "subtitle": "The meeting of cultures is a spark capable of transforming the world within us and around us.",
+      "cta_primary": "Discover Our Projects",
+      "cta_secondary": "Learn About Us",
+      "stats": {
+        "years": "Years",
+        "partners": "Partners",
+        "projects": "Projects"
+      }
+    },
+    "association_preview": {
+      "badge": "About Us",
+      "title": "ASSO S.L.A.V.É.",
+      "description": "An intellectual laboratory bringing together people from diverse backgrounds around creative, educational, and sustainable projects.",
+      "cta": "Learn More"
+    },
+    "main_project": {
+      "badge": "Featured Project",
+      "title": "Rails of Time",
+      "description": "An inter-university project based on innovative educational engineering, connecting generations, cultures, and territories through travel, creativity, and dialogue.",
+      "cta": "View Project"
+    },
+    "participants": {
+      "badge": "Project Participants",
+      "title": "Partner Universities",
+      "subtitle": "Students from leading institutions collaborating on creative and educational projects",
+      "kedge": "KEDGE Business School",
+      "cnam": "CNAM Nouvelle-Aquitaine",
+      "iae": "IAE Bordeaux"
+    }
+  },
+  "association": {
+    "hero": {
+      "badge": "About Us",
+      "title1": "Our",
+      "title2": "Story",
+      "subtitle": "An intellectual laboratory bringing together people from diverse backgrounds around creative, educational, and sustainable projects."
+    },
+    "about": {
+      "title": "About ASSO S.L.A.V.É.",
+      "text1": "ASSO S.L.A.V.É. is an intellectual laboratory bringing together people from diverse backgrounds around creative, educational, and sustainable projects.",
+      "text2": "The association's main activity is the development of projects at the intersection of science, entrepreneurship, culture, art, sustainable development, and technology. Particular attention is given to cinema, digital media, and artificial intelligence, as well as to traditional artistic practices, as tools for intercultural exchange and responsible development."
+    },
+    "history": {
+      "title": "History & Values",
+      "text1": "The association was founded in 2007 at Université Bordeaux Montaigne by students and professors passionate about cultural dialogue with Eastern Europe, former USSR countries, and the Slavic world.",
+      "text2": "From the beginning, the association stood out through the organization of numerous cultural and scientific events led by professionals from the economic, academic, and artistic worlds. One of its most emblematic projects was the international short film competition In Ciné Veritas.",
+      "text3": "Over time, the association has evolved, structured, and expanded its activities by developing educational workshops in various academic fields such as communication, management, entrepreneurship, art, creative industries, and marketing. It also conducts oral and written translation activities aligned with its original academic expertise.",
+      "text4": "These actions rely on research-action methods and design thinking approaches and extend into creative projects, the design of tourism routes in France and Europe, and the promotion of territories and their economic actors, regardless of size.",
+      "text5": "The association is also committed to inclusivity and respect for human dignity by developing projects that promote access to culture, education, and creativity for diverse audiences, while valuing participation, autonomy, and self-expression as drivers of responsible and sustainable development.",
+      "text6": "Through this evolution, the association has moved beyond its initial scope to become an interdisciplinary, territorial, and European platform.",
+      "text7": "Faithful to its academic roots and philosophy—education, culture, and art as tools for transformation—the association has become an intercultural, intergenerational, and interdisciplinary platform."
+    },
+    "motto": {
+      "title": "Our Motto",
+      "acronym": "Savoir • Langue • Art • Voyage • Échange",
+      "quote": "The meeting of cultures is a spark capable of transforming the world within us and around us."
+    },
+    "values": {
+      "title": "Our Core Values",
+      "education": {
+        "title": "Education",
+        "description": "Empowering through knowledge and skills development"
+      },
+      "culture": {
+        "title": "Culture",
+        "description": "Celebrating diversity and intercultural dialogue"
+      },
+      "creativity": {
+        "title": "Creativity",
+        "description": "Fostering innovation and artistic expression"
+      },
+      "sustainability": {
+        "title": "Sustainability",
+        "description": "Building responsible and lasting impact"
+      }
+    }
+  },
+  "projects": {
+    "hero": {
+      "badge": "Our Projects",
+      "title1": "Rails of",
+      "title2": "Time",
+      "subtitle": "An inter-university project reflecting a new form of innovative educational engineering based on design thinking."
+    },
+    "about": {
+      "title": "About the Project",
+      "text1": "Rails of Time is an inter-university project reflecting a new form of innovative educational engineering based on design thinking.",
+      "text2": "The project title plays on words: \"Rails of Time\" refers both to a real itinerary and to a metaphorical link between generations, cultures, and traditions across time. By traveling through different French cities, participants discover cultural traces of the past and present while exploring the living stories of those whose creativity shapes territories.",
+      "text3": "The project takes the form of a new-generation travelogue in which students design itineraries, produce short films, conduct interviews, and write research narratives while immersing themselves in local culture, innovation, and creative practices."
+    },
+    "objectives": {
+      "title": "Project Objectives",
+      "list": [
+        "Promote intercultural education and dialogue",
+        "Encourage sustainable tourism development",
+        "Study innovations in transport infrastructure",
+        "Create links between generations and social groups",
+        "Develop students' media, analytical, and creative skills",
+        "Contribute to territorial development",
+        "Explore innovative technologies for waste reduction"
+      ]
+    },
+    "outline": {
+      "title": "Project Outline",
+      "description": "The project unfolds in several complementary phases designed as a progressive path of transmission, creation, and intergenerational dialogue."
+    },
+    "phase1": {
+      "title": "Phase 1: Generation U",
+      "subtitle": "Rails of Time – Generation U",
+      "description": "Rails of Time – Generation U is the first stage of the project. It is designed for students from partner higher education institutions and is integrated into their academic curriculum.",
+      "highlight": "Local companies and personalities become the \"heroes\" of the films created by students and the subjects of academic analysis.",
+      "students_title": "Students Involved",
+      "students": ["KEDGE Business School", "CNAM Nouvelle-Aquitaine", "IAE Bordeaux"]
+    },
+    "phase2": {
+      "title": "Phase 2: Junior",
+      "subtitle": "Rails of Time – Junior",
+      "description": "Rails of Time – Junior is based on an intergenerational transmission approach. Higher education students become tutors and mediators, guiding middle and high school students throughout the project.",
+      "students_title": "Students Involved",
+      "students": ["Public or private middle schools", "SEGPA and ULIS classes welcome"]
+    },
+    "results": {
+      "title": "Expected Results",
+      "list": [
+        "Films and videos",
+        "Interactive route map",
+        "Participant blog",
+        "Intercultural exchange platform",
+        "Public exhibitions and presentations"
+      ]
+    },
+    "curators": {
+      "title": "Project Curators",
+      "list": [
+        { "name": "Dirk C. Moosmayer" },
+        { "name": "Feriel Sayadi" },
+        { "name": "Antoine Ertle" },
+        { "name": "Daria Tsukanova" },
+        { "name": "Johannes (Jan) Schaaper" },
+        { "name": "Kristian Feigelson" }
+      ]
+    },
+    "partners": {
+      "title": "Academic Partners",
+      "list": [
+        "Université Bordeaux Montaigne",
+        "KEDGE Business School",
+        "CNAM Nouvelle-Aquitaine",
+        "ILERI",
+        "Université Sorbonne Nouvelle – Paris 3"
+      ]
+    }
+  },
+  "contact": {
+    "hero": {
+      "badge": "Contact Us",
+      "title1": "Get in",
+      "title2": "Touch",
+      "subtitle": "We'd love to hear from you. Reach out to discuss projects, partnerships, or learn more about our association."
+    },
+    "form": {
+      "title": "Send us a message",
+      "name": "Full Name",
+      "name_placeholder": "Your name",
+      "email": "Email Address",
+      "email_placeholder": "your@email.com",
+      "subject": "Subject",
+      "subject_placeholder": "What is this about?",
+      "message": "Message",
+      "message_placeholder": "Your message...",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully!",
+      "error": "Failed to send message. Please try again."
+    },
+    "info": {
+      "title": "Contact Information",
+      "phone": "+33 6 42 00 12 80",
+      "email": "asso.slave@gmail.com",
+      "address": "Université Bordeaux Montaigne, Bordeaux, France"
+    },
+    "legal": {
+      "title": "Legal Information",
+      "registration": "Registration date: 16 June 2007",
+      "office": "Registered office: Université Bordeaux Montaigne",
+      "number": "Association number: W332004231",
+      "siret": "SIRET: 928 819 077 00019"
+    }
+  },
+  "footer": {
+    "description": "An intellectual laboratory bringing together people from diverse backgrounds around creative, educational, and sustainable projects.",
+    "quick_links": "Quick Links",
+    "contact_us": "Contact Us",
+    "legal_info": "Legal Information",
+    "copyright": "© 2024 ASSO S.L.A.V.É. All rights reserved."
+  },
+  "cta": {
+    "join_us": "Join Our Community",
+    "join_description": "Be part of our creative and educational projects. Connect with us to explore partnership opportunities.",
+    "get_started": "Get Started",
+    "learn_more": "Learn More"
+  }
+}

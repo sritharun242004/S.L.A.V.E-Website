@@ -1,0 +1,168 @@
+/* ASSO S.L.A.V.É. Background Patterns - French Theme */
+
+/* Grid Pattern - French Blue */
+.bg-circuit-pattern {
+  background-image: 
+    linear-gradient(90deg, rgba(0, 85, 164, 0.03) 1px, transparent 1px),
+    linear-gradient(rgba(0, 85, 164, 0.03) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* French Grid Pattern */
+.bg-french-grid {
+  background-image: 
+    linear-gradient(to right, rgba(0, 85, 164, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 85, 164, 0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* Hexagonal Pattern */
+.bg-hex-pattern {
+  background-image: 
+    repeating-linear-gradient(
+      30deg,
+      transparent,
+      transparent 10px,
+      rgba(0, 85, 164, 0.03) 10px,
+      rgba(0, 85, 164, 0.03) 11px
+    ),
+    repeating-linear-gradient(
+      -30deg,
+      transparent,
+      transparent 10px,
+      rgba(0, 85, 164, 0.03) 10px,
+      rgba(0, 85, 164, 0.03) 11px
+    );
+}
+
+/* Wave Pattern */
+.bg-wave-pattern {
+  background-image: 
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 35px,
+      rgba(0, 85, 164, 0.04) 35px,
+      rgba(0, 85, 164, 0.04) 36px
+    );
+}
+
+/* Dot Matrix Pattern */
+.bg-dot-matrix {
+  background-image: 
+    radial-gradient(circle at 1px 1px, rgba(0, 85, 164, 0.08) 1px, transparent 0);
+  background-size: 30px 30px;
+}
+
+/* Binary Code Pattern */
+.bg-binary-pattern {
+  background-image: 
+    linear-gradient(90deg, transparent 98%, rgba(0, 85, 164, 0.02) 98%),
+    linear-gradient(180deg, transparent 98%, rgba(0, 85, 164, 0.02) 98%);
+  background-size: 15px 15px;
+}
+
+/* French Wafer Pattern */
+.bg-wafer-pattern {
+  background: 
+    radial-gradient(circle at 20% 50%, rgba(0, 85, 164, 0.03) 0%, transparent 50%),
+    radial-gradient(circle at 80% 50%, rgba(239, 68, 68, 0.03) 0%, transparent 50%);
+}
+
+/* Tech Mesh Pattern */
+.bg-tech-mesh {
+  background-image:
+    linear-gradient(45deg, rgba(0, 85, 164, 0.03) 25%, transparent 25%),
+    linear-gradient(-45deg, rgba(0, 85, 164, 0.03) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, rgba(0, 85, 164, 0.03) 75%),
+    linear-gradient(-45deg, transparent 75%, rgba(0, 85, 164, 0.03) 75%);
+  background-size: 40px 40px;
+  background-position: 0 0, 0 20px, 20px -20px, -20px 0px;
+}
+
+/* French Grid Overlay */
+.bg-french-overlay {
+  background-image:
+    linear-gradient(rgba(0, 85, 164, 0.05) 2px, transparent 2px),
+    linear-gradient(90deg, rgba(0, 85, 164, 0.05) 2px, transparent 2px),
+    linear-gradient(rgba(0, 85, 164, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 85, 164, 0.02) 1px, transparent 1px);
+  background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+
+/* Animated French Flow */
+@keyframes french-flow {
+  0%, 100% {
+    background-position: 0% 0%, 0% 100%, 100% 0%;
+  }
+  50% {
+    background-position: 100% 0%, 0% 0%, 0% 100%;
+  }
+}
+
+.bg-animated-french {
+  background-image:
+    linear-gradient(90deg, transparent 0%, rgba(0, 85, 164, 0.1) 50%, transparent 100%),
+    linear-gradient(0deg, transparent 0%, rgba(239, 68, 68, 0.1) 50%, transparent 100%),
+    linear-gradient(45deg, transparent 0%, rgba(0, 61, 107, 0.05) 50%, transparent 100%);
+  background-size: 200% 2px, 2px 200%, 200% 200%;
+  animation: french-flow 15s ease-in-out infinite;
+}
+
+/* Gradient Overlay with Pattern */
+.bg-gradient-french-pattern {
+  background: 
+    linear-gradient(135deg, rgba(0, 85, 164, 0.1) 0%, transparent 50%, rgba(239, 68, 68, 0.1) 100%);
+}
+
+/* French Semiconductor Pattern */
+.bg-french-dots {
+  background-image:
+    radial-gradient(circle at 25px 25px, rgba(0, 85, 164, 0.05) 2%, transparent 0%),
+    radial-gradient(circle at 75px 75px, rgba(239, 68, 68, 0.05) 2%, transparent 0%);
+  background-size: 100px 100px;
+}
+
+/* Professional French Overlay */
+.bg-french-tech-overlay {
+  position: relative;
+}
+
+.bg-french-tech-overlay::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: 
+    linear-gradient(rgba(0, 85, 164, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 85, 164, 0.02) 1px, transparent 1px);
+  background-size: 50px 50px;
+  pointer-events: none;
+}
+
+/* Cultural Success Pattern */
+.bg-success-pattern {
+  background-image:
+    linear-gradient(30deg, transparent 40%, rgba(0, 85, 164, 0.03) 40%, rgba(0, 85, 164, 0.03) 60%, transparent 60%),
+    linear-gradient(150deg, transparent 40%, rgba(239, 68, 68, 0.03) 40%, rgba(239, 68, 68, 0.03) 60%, transparent 60%);
+  background-size: 60px 60px;
+}
+
+/* Railway Track Pattern - For Rails of Time */
+.bg-railway-pattern {
+  background-image:
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 20px,
+      rgba(0, 61, 107, 0.05) 20px,
+      rgba(0, 61, 107, 0.05) 25px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 40px,
+      rgba(239, 68, 68, 0.03) 40px,
+      rgba(239, 68, 68, 0.03) 45px
+    );
+}

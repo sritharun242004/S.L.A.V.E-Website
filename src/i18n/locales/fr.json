@@ -1,0 +1,218 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "association": "Association",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "header": {
+    "tagline": "Savoir • Langue • Art • Voyage • Échange"
+  },
+  "home": {
+    "hero": {
+      "badge": "Depuis 2007 • Bordeaux, France",
+      "title1": "Où les Cultures",
+      "title2": "Se Rencontrent",
+      "subtitle": "La rencontre des cultures est une étincelle capable de transformer le monde en nous et autour de nous.",
+      "cta_primary": "Découvrir Nos Projets",
+      "cta_secondary": "En Savoir Plus",
+      "stats": {
+        "years": "Années",
+        "partners": "Partenaires",
+        "projects": "Projets"
+      }
+    },
+    "association_preview": {
+      "badge": "À Propos",
+      "title": "ASSO S.L.A.V.É.",
+      "description": "Un laboratoire intellectuel réunissant des personnes d'horizons divers autour de projets créatifs, éducatifs et durables.",
+      "cta": "En Savoir Plus"
+    },
+    "main_project": {
+      "badge": "Projet Phare",
+      "title": "Les Rails du Temps",
+      "description": "Un projet inter-universitaire basé sur une ingénierie pédagogique innovante, reliant les générations, les cultures et les territoires à travers le voyage, la créativité et le dialogue.",
+      "cta": "Voir le Projet"
+    },
+    "participants": {
+      "badge": "Participants au Projet",
+      "title": "Universités Partenaires",
+      "subtitle": "Étudiants d'institutions de premier plan collaborant sur des projets créatifs et éducatifs",
+      "kedge": "KEDGE Business School",
+      "cnam": "CNAM Nouvelle-Aquitaine",
+      "iae": "IAE Bordeaux"
+    }
+  },
+  "association": {
+    "hero": {
+      "badge": "À Propos",
+      "title1": "Notre",
+      "title2": "Histoire",
+      "subtitle": "Un laboratoire intellectuel réunissant des personnes d'horizons divers autour de projets créatifs, éducatifs et durables."
+    },
+    "about": {
+      "title": "À Propos de l'ASSO S.L.A.V.É.",
+      "text1": "L'ASSO S.L.A.V.É. est un laboratoire intellectuel réunissant des personnes d'horizons divers autour de projets créatifs, éducatifs et durables.",
+      "text2": "L'activité principale de l'association est le développement de projets à l'intersection de la science, de l'entrepreneuriat, de la culture, de l'art, du développement durable et de la technologie. Une attention particulière est accordée au cinéma, aux médias numériques et à l'intelligence artificielle, ainsi qu'aux pratiques artistiques traditionnelles, en tant qu'outils d'échange interculturel et de développement responsable."
+    },
+    "history": {
+      "title": "Histoire & Valeurs",
+      "text1": "L'association a été fondée en 2007 à l'Université Bordeaux Montaigne par des étudiants et des professeurs passionnés par le dialogue culturel avec l'Europe de l'Est, les pays de l'ex-URSS et le monde slave.",
+      "text2": "Dès le début, l'association s'est distinguée par l'organisation de nombreux événements culturels et scientifiques animés par des professionnels des mondes économique, académique et artistique. L'un de ses projets les plus emblématiques a été le concours international de courts métrages In Ciné Veritas.",
+      "text3": "Au fil du temps, l'association a évolué, s'est structurée et a élargi ses activités en développant des ateliers pédagogiques dans divers domaines académiques tels que la communication, le management, l'entrepreneuriat, l'art, les industries créatives et le marketing. Elle mène également des activités de traduction orale et écrite conformément à son expertise académique originale.",
+      "text4": "Ces actions s'appuient sur des méthodes de recherche-action et des approches de design thinking et s'étendent à des projets créatifs, à la conception de circuits touristiques en France et en Europe, et à la promotion des territoires et de leurs acteurs économiques, quelle que soit leur taille.",
+      "text5": "L'association s'engage également en faveur de l'inclusion et du respect de la dignité humaine en développant des projets qui favorisent l'accès à la culture, à l'éducation et à la créativité pour des publics divers, tout en valorisant la participation, l'autonomie et l'expression de soi comme moteurs d'un développement responsable et durable.",
+      "text6": "À travers cette évolution, l'association a dépassé son champ d'action initial pour devenir une plateforme interdisciplinaire, territoriale et européenne.",
+      "text7": "Fidèle à ses racines académiques et à sa philosophie – l'éducation, la culture et l'art comme outils de transformation – l'association est devenue une plateforme interculturelle, intergénérationnelle et interdisciplinaire."
+    },
+    "motto": {
+      "title": "Notre Devise",
+      "acronym": "Savoir • Langue • Art • Voyage • Échange",
+      "quote": "La rencontre des cultures est une étincelle capable de transformer le monde en nous et autour de nous."
+    },
+    "values": {
+      "title": "Nos Valeurs Fondamentales",
+      "education": {
+        "title": "Éducation",
+        "description": "Autonomiser par le savoir et le développement des compétences"
+      },
+      "culture": {
+        "title": "Culture",
+        "description": "Célébrer la diversité et le dialogue interculturel"
+      },
+      "creativity": {
+        "title": "Créativité",
+        "description": "Favoriser l'innovation et l'expression artistique"
+      },
+      "sustainability": {
+        "title": "Durabilité",
+        "description": "Construire un impact responsable et durable"
+      }
+    }
+  },
+  "projects": {
+    "hero": {
+      "badge": "Nos Projets",
+      "title1": "Les Rails du",
+      "title2": "Temps",
+      "subtitle": "Un projet inter-universitaire reflétant une nouvelle forme d'ingénierie pédagogique innovante basée sur le design thinking."
+    },
+    "about": {
+      "title": "À Propos du Projet",
+      "text1": "Les Rails du Temps est un projet inter-universitaire reflétant une nouvelle forme d'ingénierie pédagogique innovante basée sur le design thinking.",
+      "text2": "Le titre du projet joue sur les mots : « Les Rails du Temps » fait référence à la fois à un itinéraire réel et à un lien métaphorique entre les générations, les cultures et les traditions à travers le temps. En voyageant à travers différentes villes françaises, les participants découvrent les traces culturelles du passé et du présent tout en explorant les histoires vivantes de ceux dont la créativité façonne les territoires.",
+      "text3": "Le projet prend la forme d'un carnet de voyage nouvelle génération dans lequel les étudiants conçoivent des itinéraires, produisent des courts métrages, réalisent des interviews et rédigent des récits de recherche tout en s'immergeant dans la culture locale, l'innovation et les pratiques créatives."
+    },
+    "objectives": {
+      "title": "Objectifs du Projet",
+      "list": [
+        "Promouvoir l'éducation et le dialogue interculturel",
+        "Encourager le développement du tourisme durable",
+        "Étudier les innovations dans les infrastructures de transport",
+        "Créer des liens entre les générations et les groupes sociaux",
+        "Développer les compétences médiatiques, analytiques et créatives des étudiants",
+        "Contribuer au développement territorial",
+        "Explorer les technologies innovantes pour la réduction des déchets"
+      ]
+    },
+    "outline": {
+      "title": "Plan du Projet",
+      "description": "Le projet se déroule en plusieurs phases complémentaires conçues comme un parcours progressif de transmission, de création et de dialogue intergénérationnel."
+    },
+    "phase1": {
+      "title": "Phase 1 : Génération U",
+      "subtitle": "Les Rails du Temps – Génération U",
+      "description": "Les Rails du Temps – Génération U est la première étape du projet. Il est conçu pour les étudiants des établissements d'enseignement supérieur partenaires et est intégré à leur cursus académique.",
+      "highlight": "Les entreprises locales et les personnalités deviennent les « héros » des films créés par les étudiants et les sujets d'analyse académique.",
+      "students_title": "Étudiants Impliqués",
+      "students": ["KEDGE Business School", "CNAM Nouvelle-Aquitaine", "IAE Bordeaux"]
+    },
+    "phase2": {
+      "title": "Phase 2 : Junior",
+      "subtitle": "Les Rails du Temps – Junior",
+      "description": "Les Rails du Temps – Junior repose sur une approche de transmission intergénérationnelle. Les étudiants de l'enseignement supérieur deviennent tuteurs et médiateurs, guidant les collégiens et lycéens tout au long du projet.",
+      "students_title": "Étudiants Impliqués",
+      "students": ["Collèges publics ou privés", "Classes SEGPA et ULIS bienvenues"]
+    },
+    "results": {
+      "title": "Résultats Attendus",
+      "list": [
+        "Films et vidéos",
+        "Carte d'itinéraire interactive",
+        "Blog des participants",
+        "Plateforme d'échange interculturel",
+        "Expositions et présentations publiques"
+      ]
+    },
+    "curators": {
+      "title": "Curateurs du Projet",
+      "list": [
+        { "name": "Dirk C. Moosmayer" },
+        { "name": "Feriel Sayadi" },
+        { "name": "Antoine Ertle" },
+        { "name": "Daria Tsukanova" },
+        { "name": "Johannes (Jan) Schaaper" },
+        { "name": "Kristian Feigelson" }
+      ]
+    },
+    "partners": {
+      "title": "Partenaires Académiques",
+      "list": [
+        "Université Bordeaux Montaigne",
+        "KEDGE Business School",
+        "CNAM Nouvelle-Aquitaine",
+        "ILERI",
+        "Université Sorbonne Nouvelle – Paris 3"
+      ]
+    }
+  },
+  "contact": {
+    "hero": {
+      "badge": "Contactez-Nous",
+      "title1": "Nous",
+      "title2": "Contacter",
+      "subtitle": "Nous serions ravis de vous entendre. Contactez-nous pour discuter de projets, de partenariats ou pour en savoir plus sur notre association."
+    },
+    "form": {
+      "title": "Envoyez-nous un message",
+      "name": "Nom Complet",
+      "name_placeholder": "Votre nom",
+      "email": "Adresse Email",
+      "email_placeholder": "votre@email.com",
+      "subject": "Sujet",
+      "subject_placeholder": "De quoi s'agit-il ?",
+      "message": "Message",
+      "message_placeholder": "Votre message...",
+      "submit": "Envoyer le Message",
+      "sending": "Envoi en cours...",
+      "success": "Message envoyé avec succès !",
+      "error": "Échec de l'envoi du message. Veuillez réessayer."
+    },
+    "info": {
+      "title": "Informations de Contact",
+      "phone": "+33 6 42 00 12 80",
+      "email": "asso.slave@gmail.com",
+      "address": "Université Bordeaux Montaigne, Bordeaux, France"
+    },
+    "legal": {
+      "title": "Informations Légales",
+      "registration": "Date d'enregistrement : 16 juin 2007",
+      "office": "Siège social : Université Bordeaux Montaigne",
+      "number": "Numéro d'association : W332004231",
+      "siret": "SIRET : 928 819 077 00019"
+    }
+  },
+  "footer": {
+    "description": "Un laboratoire intellectuel réunissant des personnes d'horizons divers autour de projets créatifs, éducatifs et durables.",
+    "quick_links": "Liens Rapides",
+    "contact_us": "Contactez-Nous",
+    "legal_info": "Informations Légales",
+    "copyright": "© 2024 ASSO S.L.A.V.É. Tous droits réservés."
+  },
+  "cta": {
+    "join_us": "Rejoignez Notre Communauté",
+    "join_description": "Faites partie de nos projets créatifs et éducatifs. Contactez-nous pour explorer les opportunités de partenariat.",
+    "get_started": "Commencer",
+    "learn_more": "En Savoir Plus"
+  }
+}
