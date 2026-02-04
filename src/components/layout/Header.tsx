@@ -53,7 +53,7 @@ const Header = () => {
             onClick={handleLogoClick}
             className="flex items-center space-x-3 group cursor-pointer"
           >
-            <div className="h-12 w-12 flex items-center justify-center group-hover:scale-110 transition-transform">
+            <div className="h-16 w-16 flex items-center justify-center group-hover:scale-110 transition-transform">
               <img 
                 src={logo} 
                 alt="ASSO S.L.A.V.É. Logo" 
@@ -61,7 +61,7 @@ const Header = () => {
               />
             </div>
             <div className="flex flex-col items-start">
-              <span className="text-xl font-bold text-[#003D6B] group-hover:text-[#0055A4] transition-colors" style={{ fontFamily: 'Poppins, sans-serif' }}>
+              <span className="text-2xl font-bold text-[#003D6B] group-hover:text-[#0055A4] transition-colors" style={{ fontFamily: 'Poppins, sans-serif' }}>
                 S.L.A.V.É.
               </span>
               <span className="text-[10px] text-[#EF4444] font-medium hidden sm:block">

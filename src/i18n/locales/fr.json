@@ -11,15 +11,15 @@
   "home": {
     "hero": {
       "badge": "Depuis 2007 • Bordeaux, France",
-      "title1": "Où les Cultures",
-      "title2": "Se Rencontrent",
+      "title1": "Où les cultures",
+      "title2": "se rencontrent",
       "subtitle": "La rencontre des cultures est une étincelle capable de transformer le monde en nous et autour de nous.",
       "cta_primary": "Découvrir Nos Projets",
       "cta_secondary": "En Savoir Plus",
       "stats": {
         "years": "Années",
-        "partners": "Partenaires",
-        "projects": "Projets"
+        "partners": "Partenaires Institutionnels",
+        "projects": "Groupes de Projets"
       }
     },
     "association_preview": {
@@ -71,7 +71,7 @@
       "quote": "La rencontre des cultures est une étincelle capable de transformer le monde en nous et autour de nous."
     },
     "values": {
-      "title": "Nos Valeurs Fondamentales",
+      "title": "Nos Domaines Clés",
       "education": {
         "title": "Éducation",
         "description": "Autonomiser par le savoir et le développement des compétences"
@@ -87,6 +87,14 @@
       "sustainability": {
         "title": "Durabilité",
         "description": "Construire un impact responsable et durable"
+      },
+      "industries": {
+        "title": "Industries",
+        "description": "Connecter avec les secteurs professionnels"
+      },
+      "entrepreneurship": {
+        "title": "Entrepreneuriat",
+        "description": "Cultiver l'innovation commerciale"
       }
     }
   },
@@ -96,6 +104,28 @@
       "title1": "Les Rails du",
       "title2": "Temps",
       "subtitle": "Un projet inter-universitaire reflétant une nouvelle forme d'ingénierie pédagogique innovante basée sur le design thinking."
+    },
+    "groups": {
+      "academic": {
+        "title": "Ateliers pédagogiques et projets académiques",
+        "description": "Ce pôle regroupe des ateliers et programmes pédagogiques interdisciplinaires (communication, management, entrepreneuriat, marketing, industries créatives), basés sur des méthodes de recherche-action et de design thinking, en étroite collaboration avec des institutions partenaires (universités, écoles, CNAM)."
+      },
+      "cinema": {
+        "title": "Cinéma, médias numériques et création audiovisuelle",
+        "description": "Dans la continuité de projets emblématiques tels que le concours In Ciné Veritas, ce pôle développe des actions autour du court métrage, de la narration audiovisuelle, des médias numériques et plus récemment, de l'utilisation de l'IA comme outil de création et de médiation culturelle."
+      },
+      "territorial": {
+        "title": "Développement territorial et itinéraires culturels & touristiques",
+        "description": "Ce pôle développe des projets axés sur la création et la valorisation des territoires en France et en Europe, incluant la conception d'itinéraires culturels et touristiques et la mise en lumière des acteurs économiques locaux, dans une perspective de transition et de transformation responsable."
+      },
+      "translation": {
+        "title": "Traduction, médiation linguistique et interculturelle",
+        "description": "S'appuyant sur l'expertise académique fondatrice de l'association, ce pôle mène des activités de traduction orale et écrite, ainsi que des initiatives de médiation linguistique en soutien à des projets culturels, académiques et institutionnels."
+      },
+      "inclusion": {
+        "title": "Inclusion, accès à l'emploi et participation citoyenne",
+        "description": "Enfin, un pôle transversal est dédié aux projets favorisant l'inclusion et l'accès à l'emploi, avec un accent sur la participation et l'autonomie de publics divers comme moteurs de transformation sociale."
+      }
     },
     "about": {
       "title": "À Propos du Projet",
@@ -125,14 +155,21 @@
       "description": "Les Rails du Temps – Génération U est la première étape du projet. Il est conçu pour les étudiants des établissements d'enseignement supérieur partenaires et est intégré à leur cursus académique.",
       "highlight": "Les entreprises locales et les personnalités deviennent les « héros » des films créés par les étudiants et les sujets d'analyse académique.",
       "students_title": "Étudiants Impliqués",
-      "students": ["KEDGE Business School", "CNAM Nouvelle-Aquitaine", "IAE Bordeaux"]
+      "students": [
+        "KEDGE Business School",
+        "CNAM Nouvelle-Aquitaine",
+        "IAE Bordeaux"
+      ]
     },
     "phase2": {
       "title": "Phase 2 : Junior",
       "subtitle": "Les Rails du Temps – Junior",
       "description": "Les Rails du Temps – Junior repose sur une approche de transmission intergénérationnelle. Les étudiants de l'enseignement supérieur deviennent tuteurs et médiateurs, guidant les collégiens et lycéens tout au long du projet.",
       "students_title": "Étudiants Impliqués",
-      "students": ["Collèges publics ou privés", "Classes SEGPA et ULIS bienvenues"]
+      "students": [
+        "Collèges publics ou privés",
+        "Classes SEGPA et ULIS bienvenues"
+      ]
     },
     "results": {
       "title": "Résultats Attendus",
@@ -147,12 +184,24 @@
     "curators": {
       "title": "Curateurs du Projet",
       "list": [
-        { "name": "Dirk C. Moosmayer" },
-        { "name": "Feriel Sayadi" },
-        { "name": "Antoine Ertle" },
-        { "name": "Daria Tsukanova" },
-        { "name": "Johannes (Jan) Schaaper" },
-        { "name": "Kristian Feigelson" }
+        {
+          "name": "Dirk C. Moosmayer"
+        },
+        {
+          "name": "Feriel Sayadi"
+        },
+        {
+          "name": "Antoine Ertle"
+        },
+        {
+          "name": "Daria Tsukanova"
+        },
+        {
+          "name": "Johannes (Jan) Schaaper"
+        },
+        {
+          "name": "Kristian Feigelson"
+        }
       ]
     },
     "partners": {

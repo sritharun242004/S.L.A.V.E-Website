@@ -1,16 +1,25 @@
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import { Card } from "@/components/ui/card";
-import { 
+import {
   GraduationCap, Globe, Lightbulb, Heart, Quote, BookOpen,
-  Calendar, Award, Users, Target, Compass, Sparkles
+  Calendar, Award, Users, Target, Compass, Sparkles, ArrowDown
 } from "lucide-react";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
+import { motion, useScroll, useTransform, useSpring } from "framer-motion";
 import heroImage from "@/assets/hero-about.jpg";
 
 const Association = () => {
   const { t } = useTranslation();
+  const timelineRef = useRef<HTMLDivElement>(null);
+
+  const { scrollYProgress } = useScroll({
+    target: timelineRef,
+    offset: ["start center", "end center"]
+  });
+
+  const height = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
 
   // Scroll animations
   useEffect(() => {
@@ -96,20 +105,20 @@ const Association = () => {
       <section className="relative min-h-[500px] flex items-center overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0">
-          <img 
-            src={heroImage} 
+          <img
+            src={heroImage}
             alt="About Us"
             className="w-full h-full object-cover"
           />
         </div>
-        
+
         {/* Overlays */}
         <div className="absolute inset-0 bg-gradient-to-b from-[rgba(0,61,107,0.92)] via-[rgba(0,61,107,0.85)] to-[rgba(0,61,107,0.80)]" />
         <div className="absolute inset-0 bg-[rgba(0,85,164,0.1)]" />
-        
+
         {/* Smooth Fade Transition */}
         <div className="absolute bottom-0 left-0 right-0 h-[120px] bg-gradient-to-b from-transparent to-[#F8F7F4]" />
-        
+
         {/* Content */}
         <div className="container mx-auto px-4 md:px-8 relative z-10 py-20">
           <div className="max-w-4xl">
@@ -120,7 +129,7 @@ const Association = () => {
                 {t('association.hero.badge')}
               </span>
             </div>
-            
+
             {/* Title */}
             <h1 className="text-5xl md:text-6xl font-extrabold text-white mb-6" style={{ textShadow: '0 4px 20px rgba(0,0,0,0.4)' }}>
               {t('association.hero.title1')}{' '}
@@ -128,7 +137,7 @@ const Association = () => {
                 {t('association.hero.title2')}
               </span>
             </h1>
-            
+
             {/* Subtitle */}
             <p className="text-xl text-white/90 max-w-2xl" style={{ textShadow: '0 2px 10px rgba(0,0,0,0.3)' }}>
               {t('association.hero.subtitle')}
@@ -145,7 +154,7 @@ const Association = () => {
               <h2 className="text-4xl font-extrabold text-[#003D6B] mb-8">
                 {t('association.about.title')}
               </h2>
-              
+
               <div className="space-y-6 text-lg text-[#4B5563] leading-relaxed">
                 <p>{t('association.about.text1')}</p>
                 <p>{t('association.about.text2')}</p>
@@ -169,11 +178,22 @@ const Association = () => {
             </div>
 
             {/* Timeline */}
-            <div className="relative fade-in-up">
-              {/* Timeline Line */}
-              <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-gradient-to-b from-[#0055A4] to-[#EF4444] rounded-full hidden md:block" />
-              
-              <div className="space-y-12">
+            <div ref={timelineRef} className="relative fade-in-up">
+              {/* Static Background Line */}
+              <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-gray-100 rounded-full hidden md:block" />
+
+              {/* Animated Line & Arrow */}
+              <motion.div
+                className="absolute left-1/2 transform -translate-x-1/2 w-1 bg-gradient-to-b from-[#0055A4] to-[#EF4444] rounded-full hidden md:block origin-top"
+                style={{ height: height }}
+              >
+                {/* Arrow Head */}
+                <div className="absolute -bottom-3 left-1/2 transform -translate-x-1/2 text-[#EF4444]">
+                  <ArrowDown className="w-6 h-6 animate-bounce" />
+                </div>
+              </motion.div>
+
+              <div className="space-y-12 relative z-10">
                 {timelineEvents.map((event, index) => (
                   <div key={index} className={`flex items-center gap-8 ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'}`}>
                     <div className={`flex-1 ${index % 2 === 0 ? 'md:text-right' : 'md:text-left'}`}>
@@ -183,9 +203,16 @@ const Association = () => {
                         <p className="text-[#6B7280]">{event.description}</p>
                       </Card>
                     </div>
-                    
-                    <div className="hidden md:flex w-6 h-6 rounded-full bg-white border-4 border-[#0055A4] z-10" />
-                    
+
+                    {/* Timestamp Dot */}
+                    <motion.div
+                      initial={{ scale: 0, opacity: 0 }}
+                      whileInView={{ scale: 1, opacity: 1 }}
+                      viewport={{ once: true, margin: "-100px" }}
+                      transition={{ duration: 0.5 }}
+                      className="hidden md:flex w-6 h-6 rounded-full bg-white border-4 border-[#0055A4] z-10 shadow-[0_0_0_4px_white]"
+                    />
+
                     <div className="flex-1" />
                   </div>
                 ))}
@@ -222,14 +249,14 @@ const Association = () => {
             {values.map((value, index) => {
               const Icon = value.icon;
               return (
-                <Card 
+                <Card
                   key={index}
                   className="fade-in-up p-8 bg-white border-2 border-gray-100 rounded-3xl hover:-translate-y-3 hover:shadow-xl transition-all duration-400 text-center"
                   style={{ animationDelay: `${index * 150}ms` }}
                 >
-                  <div 
+                  <div
                     className="w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-6"
-                    style={{ 
+                    style={{
                       background: `linear-gradient(135deg, ${value.color}, ${value.color}cc)`,
                       boxShadow: `0 12px 30px ${value.color}40`
                     }}
@@ -252,7 +279,7 @@ const Association = () => {
           <div className="absolute w-96 h-96 rounded-full bg-[#0055A4] opacity-10 blur-[120px] top-0 left-0" />
           <div className="absolute w-96 h-96 rounded-full bg-[#EF4444] opacity-10 blur-[120px] bottom-0 right-0" />
         </div>
-        
+
         <div className="container mx-auto px-4 md:px-8 relative z-10">
           <div className="max-w-4xl mx-auto text-center fade-in-up">
             <div className="inline-block px-5 py-2 rounded-full bg-[rgba(216,93,40,0.2)] border border-[rgba(216,93,40,0.3)] mb-8">
@@ -260,12 +287,12 @@ const Association = () => {
                 {t('association.motto.title')}
               </span>
             </div>
-            
+
             {/* Acronym */}
             <h2 className="text-3xl md:text-4xl font-bold text-[#EF4444] mb-12" style={{ textShadow: '0 2px 10px rgba(0,0,0,0.3)' }}>
               {t('association.motto.acronym')}
             </h2>
-            
+
             {/* Quote */}
             <div className="relative">
               <Quote className="w-16 h-16 text-white/20 mx-auto mb-6" />

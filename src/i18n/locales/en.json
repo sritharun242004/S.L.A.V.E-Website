@@ -18,8 +18,8 @@
       "cta_secondary": "Learn About Us",
       "stats": {
         "years": "Years",
-        "partners": "Partners",
-        "projects": "Projects"
+        "partners": "Institutional Partners",
+        "projects": "Project Groups"
       }
     },
     "association_preview": {
@@ -71,7 +71,7 @@
       "quote": "The meeting of cultures is a spark capable of transforming the world within us and around us."
     },
     "values": {
-      "title": "Our Core Values",
+      "title": "Our Key Areas",
       "education": {
         "title": "Education",
         "description": "Empowering through knowledge and skills development"
@@ -87,6 +87,14 @@
       "sustainability": {
         "title": "Sustainability",
         "description": "Building responsible and lasting impact"
+      },
+      "industries": {
+        "title": "Industries",
+        "description": "Connecting with professional sectors"
+      },
+      "entrepreneurship": {
+        "title": "Entrepreneurship",
+        "description": "Cultivating business innovation"
       }
     }
   },
@@ -96,6 +104,28 @@
       "title1": "Rails of",
       "title2": "Time",
       "subtitle": "An inter-university project reflecting a new form of innovative educational engineering based on design thinking."
+    },
+    "groups": {
+      "academic": {
+        "title": "Educational workshops and academic projects",
+        "description": "This group brings together interdisciplinary educational workshops and programmes (communication, management, entrepreneurship, marketing, creative industries), based on action research and design thinking methods, in close collaboration with partner institutions (universities, schools, CNAM)."
+      },
+      "cinema": {
+        "title": "Cinema, digital media and audiovisual creation",
+        "description": "In continuity with emblematic projects such as the In Ciné Veritas competition, this group develops actions around short films, audiovisual storytelling, digital media, and more recently, the use of AI as a tool for creation and cultural mediation."
+      },
+      "territorial": {
+        "title": "Territorial development and cultural & tourist itineraries",
+        "description": "This group develops projects focused on the creation and promotion of territories in France and Europe, including the design of cultural and tourist itineraries and the highlighting of local economic actors, within a perspective of responsible transition and transformation."
+      },
+      "translation": {
+        "title": "Translation, linguistic and intercultural mediation",
+        "description": "Building on the founding academic expertise of the association, this group carries out oral and written translation activities, as well as linguistic mediation initiatives in support of cultural, academic, and institutional projects."
+      },
+      "inclusion": {
+        "title": "Inclusion, access to employment and civic participation",
+        "description": "Finally, a transversal group is dedicated to projects that promote inclusivity and access to employment, with a focus on participation and autonomy of diverse audiences as drivers of social transformation."
+      }
     },
     "about": {
       "title": "About the Project",
@@ -125,14 +155,21 @@
       "description": "Rails of Time – Generation U is the first stage of the project. It is designed for students from partner higher education institutions and is integrated into their academic curriculum.",
       "highlight": "Local companies and personalities become the \"heroes\" of the films created by students and the subjects of academic analysis.",
       "students_title": "Students Involved",
-      "students": ["KEDGE Business School", "CNAM Nouvelle-Aquitaine", "IAE Bordeaux"]
+      "students": [
+        "KEDGE Business School",
+        "CNAM Nouvelle-Aquitaine",
+        "IAE Bordeaux"
+      ]
     },
     "phase2": {
       "title": "Phase 2: Junior",
       "subtitle": "Rails of Time – Junior",
       "description": "Rails of Time – Junior is based on an intergenerational transmission approach. Higher education students become tutors and mediators, guiding middle and high school students throughout the project.",
       "students_title": "Students Involved",
-      "students": ["Public or private middle schools", "SEGPA and ULIS classes welcome"]
+      "students": [
+        "Public or private middle schools",
+        "SEGPA and ULIS classes welcome"
+      ]
     },
     "results": {
       "title": "Expected Results",
@@ -147,12 +184,24 @@
     "curators": {
       "title": "Project Curators",
       "list": [
-        { "name": "Dirk C. Moosmayer" },
-        { "name": "Feriel Sayadi" },
-        { "name": "Antoine Ertle" },
-        { "name": "Daria Tsukanova" },
-        { "name": "Johannes (Jan) Schaaper" },
-        { "name": "Kristian Feigelson" }
+        {
+          "name": "Dirk C. Moosmayer"
+        },
+        {
+          "name": "Feriel Sayadi"
+        },
+        {
+          "name": "Antoine Ertle"
+        },
+        {
+          "name": "Daria Tsukanova"
+        },
+        {
+          "name": "Johannes (Jan) Schaaper"
+        },
+        {
+          "name": "Kristian Feigelson"
+        }
       ]
     },
     "partners": {
