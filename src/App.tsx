@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import Association from "./pages/Association";
 import Projects from "./pages/Projects";
+import Dignity from "./pages/Dignity";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "./components/ScrollToTop";
@@ -37,6 +38,7 @@ const AppContent = () => {
           <Route path="/" element={<Home />} />
           <Route path="/association" element={<Association />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/dignity" element={<Dignity />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

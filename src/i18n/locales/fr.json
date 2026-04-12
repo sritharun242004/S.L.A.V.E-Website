@@ -3,6 +3,7 @@
     "home": "Accueil",
     "association": "Association",
     "projects": "Projets",
+    "dignity": "Droit à la dignité",
     "contact": "Contact"
   },
   "header": {
@@ -213,6 +214,131 @@
         "ILERI",
         "Université Sorbonne Nouvelle – Paris 3"
       ]
+    }
+  },
+  "dignity": {
+    "hero": {
+      "badge": "Action Sociale",
+      "title1": "Droit à la",
+      "title2": "Dignité",
+      "subtitle": "L'association développe des actions concrètes et des projets durables pour garantir la dignité des personnes, en particulier celles en situation de vulnérabilité."
+    },
+    "intro": {
+      "badge": "Notre Mission",
+      "title": "Droit à la dignité",
+      "description": "L'association développe des actions concrètes et des projets durables pour garantir la dignité des personnes, en particulier celles en situation de vulnérabilité. À travers des actions récurrentes, ponctuelles ou de terrain, nous soutenons les personnes âgées, les enfants, les familles et les femmes en difficulté."
+    },
+    "coordination": {
+      "label": "Coordination & Travail en équipe",
+      "image_alt": "Réunion de coordination avec ordinateurs et documents sur table",
+      "caption": "Réunions de coordination et travail associatif en équipe"
+    },
+    "actions": {
+      "badge": "Exemples d'actions",
+      "title": "Nos domaines d'action",
+      "subtitle": "Actions récurrentes, ponctuelles ou de terrain pour soutenir les personnes en difficulté",
+      "elderly": {
+        "title": "Aide aux personnes âgées",
+        "bullets": [
+          "Aide au déménagement à l'intérieur de l'établissement",
+          "Réparations légères de mobilier dans les chambres",
+          "Visites régulières pour lutter contre l'isolement"
+        ]
+      },
+      "children": {
+        "title": "Soutien à des enfants hospitalisés ou en situation de handicap",
+        "bullets": [
+          "Accompagnement de familles récemment arrivées à Bordeaux : famille ukrainienne avec Roman (10 ans, autiste) et famille tchétchène avec Viskhan (6 ans, porteur de shunt cérébral et autiste)",
+          "Orientation vers les soins et aide humaine"
+        ]
+      },
+      "women": {
+        "title": "Accompagnement de femmes en situation de séparation ou de conflit familial",
+        "bullets": [
+          "Écoute et médiation dans les conflits conjugaux (dans ou hors du cadre interculturel)",
+          "Soutien dans les démarches juridiques et administratives",
+          "Confidentialité garantie pour toutes les bénéficiaires"
+        ]
+      },
+      "library": {
+        "title": "Médiathèque associative",
+        "bullets": [
+          "Mise à disposition de livres sur la vie en France, les droits sociaux, la santé, etc.",
+          "Emprunt de films et documentaires",
+          "Espace d'échange et d'apprentissage continu"
+        ]
+      }
+    },
+    "restoration": {
+      "badge": "Soutien concret",
+      "title": "Restauration de mobilier",
+      "description": "Réparations légères et restauration de mobilier pour les résidents âgés — un exemple concret de notre engagement pour la dignité et le soin.",
+      "before": "Avant",
+      "during": "Restauration",
+      "after": "Après"
+    },
+    "projects": {
+      "badge": "Projets en cours",
+      "title": "Projets en cours",
+      "intergenerational": {
+        "title": "Accompagnement intergénérationnel",
+        "description": "Développement de coopérations entre jeunes bénévoles et personnes âgées à travers des activités partagées.",
+        "bullets": [
+          "Ateliers culturels",
+          "Activités partagées et sorties",
+          "Aide à domicile légère (réparations, tri, lecture…)"
+        ]
+      },
+      "refugees": {
+        "title": "Soutien aux familles réfugiées",
+        "description": "Aide aux familles réfugiées avec enfants porteurs de troubles du neurodéveloppement.",
+        "bullets": [
+          "Accueil et orientation",
+          "Traductions médicales",
+          "Activités d'inclusion culturelle et linguistique"
+        ]
+      },
+      "women_project": {
+        "title": "Accompagnement des femmes vulnérables",
+        "description": "Création d'un réseau de soutien avec juristes et assistantes sociales pour les femmes en situation de vulnérabilité familiale.",
+        "bullets": [
+          "Réseau avec juristes et assistantes sociales",
+          "Ateliers thématiques : droits des femmes, parentalité, médiation interculturelle"
+        ]
+      },
+      "professional": {
+        "title": "Orientation professionnelle et insertion",
+        "description": "Construction de parcours adaptés pour les personnes en reconversion professionnelle.",
+        "bullets": [
+          "Parcours adaptés (ex. professeur d'EPS devenu carreleur, validation de diplômes étrangers via ENIC-NARIC)",
+          "Ateliers de rédaction de CV et de lettres de motivation",
+          "Mise en relation avec centres de formation (AFPA, CNAM...) et structures d'insertion",
+          "Accompagnement à l'inscription sur France Travail"
+        ]
+      }
+    },
+    "gallery": {
+      "badge": "Nos actions en images",
+      "title": "Galerie",
+      "alt": {
+        "social_visit": "Visite sociale avec les résidents âgés",
+        "dining": "Repas intergénérationnel",
+        "classroom": "Présentation en classe et événement culturel",
+        "group_visit": "Visite de groupe dans des entreprises locales",
+        "cinema": "Public lors d'une projection culturelle",
+        "family": "Sortie familiale et soutien social",
+        "furniture": "Mobilier traditionnel restauré",
+        "studying": "Étudiante en recherche et études",
+        "exhibition": "Exposition et présentation culturelle",
+        "event": "Événement culturel cinématographique avec musique",
+        "globe": "Globe symbolisant l'échange interculturel",
+        "presentation": "Présentation et projection cinématographique"
+      }
+    },
+    "cta": {
+      "title": "Envie d'aider ?",
+      "description": "Rejoignez nos actions pour la dignité. Que ce soit en tant que bénévole, partenaire ou donateur, chaque contribution fait la différence dans la vie des personnes vulnérables.",
+      "button": "S'impliquer"
     }
   },
   "contact": {

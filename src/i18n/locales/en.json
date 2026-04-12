@@ -3,6 +3,7 @@
     "home": "Home",
     "association": "Association",
     "projects": "Projects",
+    "dignity": "Right to Dignity",
     "contact": "Contact"
   },
   "header": {
@@ -213,6 +214,131 @@
         "ILERI",
         "Université Sorbonne Nouvelle – Paris 3"
       ]
+    }
+  },
+  "dignity": {
+    "hero": {
+      "badge": "Social Action",
+      "title1": "Right to",
+      "title2": "Dignity",
+      "subtitle": "The association develops concrete actions and sustainable projects to guarantee the dignity of individuals, especially those in vulnerable situations."
+    },
+    "intro": {
+      "badge": "Our Mission",
+      "title": "Right to Dignity",
+      "description": "The association develops concrete actions and sustainable projects to guarantee the dignity of individuals, especially those in vulnerable situations. Through recurring, one-time, and field actions, we support the elderly, children, families, and women facing hardship."
+    },
+    "coordination": {
+      "label": "Coordination & Teamwork",
+      "image_alt": "Team coordination meeting with computers and documents",
+      "caption": "Coordination meetings and associative teamwork"
+    },
+    "actions": {
+      "badge": "Examples of Actions",
+      "title": "Our Areas of Action",
+      "subtitle": "Recurring, one-time, and field actions to support those in need",
+      "elderly": {
+        "title": "Support for the Elderly",
+        "bullets": [
+          "Help with moving within the care facility",
+          "Light furniture repairs in rooms",
+          "Regular visits to combat isolation"
+        ]
+      },
+      "children": {
+        "title": "Support for Hospitalized or Disabled Children",
+        "bullets": [
+          "Support for recently arrived families in Bordeaux: Ukrainian family with Roman (10, autistic) and Chechen family with Viskhan (6, with cerebral shunt and autism)",
+          "Referral to healthcare services and human support"
+        ]
+      },
+      "women": {
+        "title": "Support for Women in Separation or Family Conflict",
+        "bullets": [
+          "Listening and mediation in marital conflicts (within or outside the intercultural context)",
+          "Support with legal and administrative procedures",
+          "Guaranteed confidentiality for all beneficiaries"
+        ]
+      },
+      "library": {
+        "title": "Community Library",
+        "bullets": [
+          "Books on life in France, social rights, health, and more",
+          "Lending of films and documentaries",
+          "A space for exchange and continuous learning"
+        ]
+      }
+    },
+    "restoration": {
+      "badge": "Hands-On Support",
+      "title": "Furniture Restoration",
+      "description": "Light repairs and restoration of furniture for elderly residents — a concrete example of our commitment to dignity and care.",
+      "before": "Before",
+      "during": "Restoration",
+      "after": "After"
+    },
+    "projects": {
+      "badge": "Current Projects",
+      "title": "Ongoing Projects",
+      "intergenerational": {
+        "title": "Intergenerational Support",
+        "description": "Developing cooperation between young volunteers and elderly people through shared activities.",
+        "bullets": [
+          "Cultural workshops",
+          "Shared activities and outings",
+          "Light home assistance (repairs, sorting, reading)"
+        ]
+      },
+      "refugees": {
+        "title": "Support for Refugee Families",
+        "description": "Helping refugee families with children who have neurodevelopmental disorders.",
+        "bullets": [
+          "Welcome and guidance",
+          "Medical translation services",
+          "Cultural and linguistic inclusion activities"
+        ]
+      },
+      "women_project": {
+        "title": "Support for Vulnerable Women",
+        "description": "Creating a support network with lawyers and social workers for women facing family vulnerability.",
+        "bullets": [
+          "Network with lawyers and social workers",
+          "Workshops on women's rights, parenting, intercultural mediation"
+        ]
+      },
+      "professional": {
+        "title": "Career Guidance & Integration",
+        "description": "Building tailored career paths for people in professional transition.",
+        "bullets": [
+          "Adapted career paths (e.g., PE teacher turned tiler, foreign diploma validation via ENIC-NARIC)",
+          "CV and cover letter writing workshops",
+          "Connection with training centers (AFPA, CNAM) and integration structures",
+          "Registration support with France Travail"
+        ]
+      }
+    },
+    "gallery": {
+      "badge": "Our Actions in Pictures",
+      "title": "Gallery",
+      "alt": {
+        "social_visit": "Social visit with elderly residents",
+        "dining": "Intergenerational dining gathering",
+        "classroom": "Classroom presentation and cultural event",
+        "group_visit": "Group visit to local enterprises",
+        "cinema": "Cinema audience at cultural screening",
+        "family": "Family outing and social support",
+        "furniture": "Restored traditional furniture",
+        "studying": "Student studying and researching",
+        "exhibition": "Exhibition and cultural display",
+        "event": "Cultural cinema event with music",
+        "globe": "Globe symbolizing intercultural exchange",
+        "presentation": "Cinema presentation and screening"
+      }
+    },
+    "cta": {
+      "title": "Want to Help?",
+      "description": "Join our actions for dignity. Whether as a volunteer, partner, or donor, every contribution makes a difference in the lives of vulnerable people.",
+      "button": "Get Involved"
     }
   },
   "contact": {
