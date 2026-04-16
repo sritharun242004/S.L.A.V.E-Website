@@ -120,15 +120,16 @@ const Header = () => {
                     )} />
                   </button>
 
-                  {/* Dropdown Menu */}
+                  {/* Dropdown Menu with invisible bridge */}
                   <div
                     className={cn(
-                      "absolute top-full left-1/2 -translate-x-1/2 mt-2 w-56 bg-white rounded-xl shadow-lg border border-gray-100 overflow-hidden transition-all duration-200 origin-top",
+                      "absolute top-full left-1/2 -translate-x-1/2 pt-3 w-56 transition-all duration-200 origin-top",
                       isProjectsOpen
                         ? "opacity-100 scale-100 pointer-events-auto"
                         : "opacity-0 scale-95 pointer-events-none"
                     )}
                   >
+                  <div className="bg-white rounded-xl shadow-lg border border-gray-100 overflow-hidden">
                     {item.dropdown.map((sub) => (
                       <Link
                         key={sub.name}
@@ -144,6 +145,7 @@ const Header = () => {
                         {sub.name}
                       </Link>
                     ))}
+                  </div>
                   </div>
                 </div>
               ) : (
