@@ -9,8 +9,8 @@ const Footer = () => {
   const quickLinks = [
     { name: t('nav.home'), href: "/" },
     { name: t('nav.association'), href: "/association" },
-    { name: t('nav.projects'), href: "/projects" },
-    { name: t('nav.dignity'), href: "/dignity" },
+    { name: t('nav.projects_rails'), href: "/projects" },
+    { name: t('nav.projects_dignity'), href: "/dignity" },
     { name: t('nav.contact'), href: "/contact" },
   ];
 

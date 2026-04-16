@@ -3,11 +3,12 @@
     "home": "Home",
     "association": "Association",
     "projects": "Projects",
-    "dignity": "Right to Dignity",
+    "projects_rails": "Rails of Time",
+    "projects_dignity": "Right to Dignity",
     "contact": "Contact"
   },
   "header": {
-    "tagline": "Savoir • Langue • Art • Voyage • Échange"
+    "tagline": "Savoir - Langue - Art - Voyage - Échange"
   },
   "home": {
     "hero": {
@@ -246,14 +247,14 @@
         ]
       },
       "children": {
-        "title": "Support for Hospitalized or Disabled Children",
+        "title": "Support for Children with Specific Needs or Affected by Illness",
         "bullets": [
-          "Support for recently arrived families in Bordeaux: Ukrainian family with Roman (10, autistic) and Chechen family with Viskhan (6, with cerebral shunt and autism)",
+          "Support for families with children who have specific needs",
           "Referral to healthcare services and human support"
         ]
       },
       "women": {
-        "title": "Support for Women in Separation or Family Conflict",
+        "title": "Support for Families in Complex Family Situations",
         "bullets": [
           "Listening and mediation in marital conflicts (within or outside the intercultural context)",
           "Support with legal and administrative procedures",
@@ -290,12 +291,13 @@
         ]
       },
       "refugees": {
-        "title": "Support for Refugee Families",
-        "description": "Helping refugee families with children who have neurodevelopmental disorders.",
+        "title": "Support for Newly Arrived Families",
+        "description": "We support families through actions that promote their integration and autonomy.",
         "bullets": [
-          "Welcome and guidance",
-          "Medical translation services",
-          "Cultural and linguistic inclusion activities"
+          "Support with administrative and medical procedures",
+          "Translations, particularly in a medical context",
+          "Activities promoting cultural and linguistic inclusion",
+          "Support for creating initiatives and social impact projects"
         ]
       },
       "women_project": {
@@ -334,6 +336,14 @@
         "globe": "Globe symbolizing intercultural exchange",
         "presentation": "Cinema presentation and screening"
       }
+    },
+    "women_caption": "Active members of the association: translation expert and cultural projects specialist",
+    "disclaimer": {
+      "title": "Scope of Our Intervention",
+      "text1": "Our actions rely on the commitment of volunteers and take place within a punctual and time-limited framework.",
+      "text2": "We support individuals in their procedures (translation, guidance) and help them in the design and development of their projects.",
+      "text3": "The association operates within the limits of its skills and resources, without substituting for qualified professionals (legal, medical, or social).",
+      "text4": "We also ensure strict respect for the limits of our intervention, as well as the privacy and autonomy of the people we support."
     },
     "cta": {
       "title": "Want to Help?",

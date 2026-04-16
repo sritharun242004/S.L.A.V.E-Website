@@ -3,11 +3,12 @@
     "home": "Accueil",
     "association": "Association",
     "projects": "Projets",
-    "dignity": "Droit à la dignité",
+    "projects_rails": "Rails du temps",
+    "projects_dignity": "Droit à la dignité",
     "contact": "Contact"
   },
   "header": {
-    "tagline": "Savoir • Langue • Art • Voyage • Échange"
+    "tagline": "Savoir - Langue - Art - Voyage - Échange"
   },
   "home": {
     "hero": {
@@ -246,14 +247,14 @@
         ]
       },
       "children": {
-        "title": "Soutien à des enfants hospitalisés ou en situation de handicap",
+        "title": "Accompagnement d'enfants à besoins spécifiques ou fragilisés par la maladie",
         "bullets": [
-          "Accompagnement de familles récemment arrivées à Bordeaux : famille ukrainienne avec Roman (10 ans, autiste) et famille tchétchène avec Viskhan (6 ans, porteur de shunt cérébral et autiste)",
+          "Accompagnement de familles avec enfants à besoins spécifiques",
           "Orientation vers les soins et aide humaine"
         ]
       },
       "women": {
-        "title": "Accompagnement de femmes en situation de séparation ou de conflit familial",
+        "title": "Accompagnement de familles en situation familiale complexe",
         "bullets": [
           "Écoute et médiation dans les conflits conjugaux (dans ou hors du cadre interculturel)",
           "Soutien dans les démarches juridiques et administratives",
@@ -290,12 +291,13 @@
         ]
       },
       "refugees": {
-        "title": "Soutien aux familles réfugiées",
-        "description": "Aide aux familles réfugiées avec enfants porteurs de troubles du neurodéveloppement.",
+        "title": "Accompagnement de familles nouvellement arrivées",
+        "description": "Nous accompagnons les familles à travers des actions favorisant leur intégration et leur autonomie.",
         "bullets": [
-          "Accueil et orientation",
-          "Traductions médicales",
-          "Activités d'inclusion culturelle et linguistique"
+          "Accompagnement dans les démarches administratives et médicales",
+          "Traductions, notamment dans un cadre médical",
+          "Activités favorisant l'inclusion culturelle et linguistique",
+          "Soutien à la création d'initiatives et de projets à impact social"
         ]
       },
       "women_project": {
@@ -334,6 +336,14 @@
         "globe": "Globe symbolisant l'échange interculturel",
         "presentation": "Présentation et projection cinématographique"
       }
+    },
+    "women_caption": "Membres actives de l'association : experte en traduction et spécialiste des projets culturels",
+    "disclaimer": {
+      "title": "Cadre de notre intervention",
+      "text1": "Nos actions reposent sur l'engagement de bénévoles et s'inscrivent dans un cadre d'intervention ponctuel et limité dans le temps.",
+      "text2": "Nous accompagnons les personnes dans leurs démarches (traduction, orientation) et les aidons dans la conception et le développement de leurs projets.",
+      "text3": "L'association intervient dans la limite de ses compétences et de ses moyens, sans se substituer aux professionnels qualifiés (juridiques, médicaux ou sociaux).",
+      "text4": "Nous veillons également à respecter strictement les limites de notre intervention, ainsi que la vie privée et l'autonomie des personnes accompagnées."
     },
     "cta": {
       "title": "Envie d'aider ?",

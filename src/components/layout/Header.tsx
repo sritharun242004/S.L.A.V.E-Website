@@ -1,17 +1,31 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { Menu, X, Globe } from "lucide-react";
+import { Menu, X, Globe, ChevronDown } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useTranslation } from "react-i18next";
 import logo from "@/assets/logo.png";
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isProjectsOpen, setIsProjectsOpen] = useState(false);
+  const [isMobileProjectsOpen, setIsMobileProjectsOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
   const location = useLocation();
   const navigate = useNavigate();
   const { t, i18n } = useTranslation();
 
   const currentLanguage = i18n.language;
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setIsProjectsOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
 
   const toggleLanguage = () => {
     const newLang = currentLanguage === 'en' ? 'fr' : 'en';
@@ -40,8 +54,14 @@ const Header = () => {
   const navigation = [
     { name: t('nav.home'), href: "/" },
     { name: t('nav.association'), href: "/association" },
-    { name: t('nav.projects'), href: "/projects" },
-    { name: t('nav.dignity'), href: "/dignity" },
+    {
+      name: t('nav.projects'),
+      href: "/projects",
+      dropdown: [
+        { name: t('nav.projects_rails'), href: "/projects" },
+        { name: t('nav.projects_dignity'), href: "/dignity" },
+      ]
+    },
     { name: t('nav.contact'), href: "/contact" },
   ];
 
@@ -73,22 +93,76 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            {navigation.map((item) => (
-              <Link
-                key={item.name}
-                to={item.href}
-                className={cn(
-                  "text-sm font-medium transition-all hover:text-[#0055A4] relative",
-                  location.pathname === item.href
-                    ? "text-[#0055A4]"
-                    : "text-[#003D6B]",
-                  "after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-[#EF4444] after:transition-all after:duration-300 hover:after:w-full",
-                  location.pathname === item.href && "after:w-full"
-                )}
-              >
-                {item.name}
-              </Link>
-            ))}
+            {navigation.map((item) =>
+              item.dropdown ? (
+                <div
+                  key={item.name}
+                  ref={dropdownRef}
+                  className="relative"
+                  onMouseEnter={() => setIsProjectsOpen(true)}
+                  onMouseLeave={() => setIsProjectsOpen(false)}
+                >
+                  <button
+                    className={cn(
+                      "text-sm font-medium transition-all hover:text-[#0055A4] relative flex items-center gap-1",
+                      (location.pathname === "/projects" || location.pathname === "/dignity")
+                        ? "text-[#0055A4]"
+                        : "text-[#003D6B]",
+                      "after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-[#EF4444] after:transition-all after:duration-300 hover:after:w-full",
+                      (location.pathname === "/projects" || location.pathname === "/dignity") && "after:w-full"
+                    )}
+                    onClick={() => setIsProjectsOpen(!isProjectsOpen)}
+                  >
+                    {item.name}
+                    <ChevronDown className={cn(
+                      "w-3.5 h-3.5 transition-transform duration-200",
+                      isProjectsOpen && "rotate-180"
+                    )} />
+                  </button>
+
+                  {/* Dropdown Menu */}
+                  <div
+                    className={cn(
+                      "absolute top-full left-1/2 -translate-x-1/2 mt-2 w-56 bg-white rounded-xl shadow-lg border border-gray-100 overflow-hidden transition-all duration-200 origin-top",
+                      isProjectsOpen
+                        ? "opacity-100 scale-100 pointer-events-auto"
+                        : "opacity-0 scale-95 pointer-events-none"
+                    )}
+                  >
+                    {item.dropdown.map((sub) => (
+                      <Link
+                        key={sub.name}
+                        to={sub.href}
+                        className={cn(
+                          "block px-5 py-3 text-sm font-medium transition-colors",
+                          location.pathname === sub.href
+                            ? "bg-[rgba(0,85,164,0.08)] text-[#0055A4]"
+                            : "text-[#003D6B] hover:bg-[rgba(0,85,164,0.05)] hover:text-[#0055A4]"
+                        )}
+                        onClick={() => setIsProjectsOpen(false)}
+                      >
+                        {sub.name}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              ) : (
+                <Link
+                  key={item.name}
+                  to={item.href}
+                  className={cn(
+                    "text-sm font-medium transition-all hover:text-[#0055A4] relative",
+                    location.pathname === item.href
+                      ? "text-[#0055A4]"
+                      : "text-[#003D6B]",
+                    "after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-[#EF4444] after:transition-all after:duration-300 hover:after:w-full",
+                    location.pathname === item.href && "after:w-full"
+                  )}
+                >
+                  {item.name}
+                </Link>
+              )
+            )}
           </nav>
 
           {/* Language Toggle & CTA */}
@@ -137,21 +211,63 @@ const Header = () => {
         {isMobileMenuOpen && (
           <div className="md:hidden border-t bg-white/95 backdrop-blur-lg">
             <div className="px-2 pt-2 pb-3 space-y-1">
-              {navigation.map((item) => (
-                <Link
-                  key={item.name}
-                  to={item.href}
-                  className={cn(
-                    "block px-3 py-3 text-base font-medium rounded-lg transition-colors",
-                    location.pathname === item.href
-                      ? "bg-[rgba(0,85,164,0.1)] text-[#0055A4]"
-                      : "text-[#003D6B] hover:bg-[rgba(0,85,164,0.05)] hover:text-[#0055A4]"
-                  )}
-                  onClick={() => setIsMobileMenuOpen(false)}
-                >
-                  {item.name}
-                </Link>
-              ))}
+              {navigation.map((item) =>
+                item.dropdown ? (
+                  <div key={item.name}>
+                    <button
+                      className={cn(
+                        "w-full flex items-center justify-between px-3 py-3 text-base font-medium rounded-lg transition-colors",
+                        (location.pathname === "/projects" || location.pathname === "/dignity")
+                          ? "bg-[rgba(0,85,164,0.1)] text-[#0055A4]"
+                          : "text-[#003D6B] hover:bg-[rgba(0,85,164,0.05)] hover:text-[#0055A4]"
+                      )}
+                      onClick={() => setIsMobileProjectsOpen(!isMobileProjectsOpen)}
+                    >
+                      {item.name}
+                      <ChevronDown className={cn(
+                        "w-4 h-4 transition-transform duration-200",
+                        isMobileProjectsOpen && "rotate-180"
+                      )} />
+                    </button>
+                    {isMobileProjectsOpen && (
+                      <div className="ml-4 mt-1 space-y-1 border-l-2 border-[#0055A4]/20 pl-3">
+                        {item.dropdown.map((sub) => (
+                          <Link
+                            key={sub.name}
+                            to={sub.href}
+                            className={cn(
+                              "block px-3 py-2.5 text-sm font-medium rounded-lg transition-colors",
+                              location.pathname === sub.href
+                                ? "bg-[rgba(0,85,164,0.08)] text-[#0055A4]"
+                                : "text-[#003D6B] hover:bg-[rgba(0,85,164,0.05)] hover:text-[#0055A4]"
+                            )}
+                            onClick={() => {
+                              setIsMobileMenuOpen(false);
+                              setIsMobileProjectsOpen(false);
+                            }}
+                          >
+                            {sub.name}
+                          </Link>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                ) : (
+                  <Link
+                    key={item.name}
+                    to={item.href}
+                    className={cn(
+                      "block px-3 py-3 text-base font-medium rounded-lg transition-colors",
+                      location.pathname === item.href
+                        ? "bg-[rgba(0,85,164,0.1)] text-[#0055A4]"
+                        : "text-[#003D6B] hover:bg-[rgba(0,85,164,0.05)] hover:text-[#0055A4]"
+                    )}
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    {item.name}
+                  </Link>
+                )
+              )}
               
               {/* Mobile Language Toggle */}
               <div className="flex items-center justify-center gap-2 pt-4 pb-2 border-t border-gray-100 mt-2">

@@ -343,6 +343,11 @@ const Dignity = () => {
                           </div>
                         )}
                       </div>
+                      {area.id === 'women' && (
+                        <p className="text-center text-[#6B7280] mt-4 italic text-sm">
+                          {t('dignity.women_caption')}
+                        </p>
+                      )}
                     </div>
 
                     {/* Content Side */}
@@ -564,6 +569,25 @@ const Dignity = () => {
                     }`}
                   />
                 ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Disclaimer Section */}
+      <section className="py-20 bg-[#F8F7F4]">
+        <div className="container mx-auto px-4 md:px-8">
+          <div className="max-w-4xl mx-auto fade-in-up">
+            <div className="bg-white rounded-3xl border-2 border-gray-100 p-8 md:p-10 shadow-sm">
+              <h3 className="text-2xl font-bold text-[#003D6B] mb-6">
+                {t('dignity.disclaimer.title')}
+              </h3>
+              <div className="space-y-4 text-[#4B5563] leading-relaxed">
+                <p>{t('dignity.disclaimer.text1')}</p>
+                <p>{t('dignity.disclaimer.text2')}</p>
+                <p>{t('dignity.disclaimer.text3')}</p>
+                <p>{t('dignity.disclaimer.text4')}</p>
               </div>
             </div>
           </div>
